@@ -29,11 +29,3 @@ function endYear(){
 
 /*Save the value of Tend*/
 var Tend = endYear();
-
-if(Tend === 0){
-    function birthday(){
-        alert("HAPPY BIRTHDAY ALEXIS!!!");
-    }
-    birthday();
-}
-console.log(Tend);
