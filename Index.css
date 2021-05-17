@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.main-container{
+    width: 100%;
+    height: 100vh;
+    background: #ff7e5f; 
+    background: linear-gradient(to right, #ffffff44, #feb47b31), url("./Img/Rialto.jpg") no-repeat; 
+    background-position: right;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Raleway', sans-serif;
+}
+.main-container h1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 60px;
+    font-family: 'KoHo', sans-serif;
+    font-size: 50px;
+    font-weight: 400 italic;
+    color: rgb(0, 0, 0);
+    
+}
+.main-container span{
+    color: #791e08;
+    padding-right: 10px;
+}
+.clock-container{
+    color: white;
+    width: 100%;
+}
+.time-cont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: 75vh;
+    font-size: 60px;
+    text-align: center;
+    align-items:center;
+}
+.time-cont h5{
+    font-weight: 500;
+}
+.time-cont p{
+    font-weight: 300;
+}
+.time-tarjet{
+    display: inline-block;
+    padding: 0 15px;
+    background: linear-gradient(to right, #09172edc, #21519d25), url("./Img/Rialto.jpg") no-repeat; 
+    background-position: right;
+    background-attachment: fixed;
+    background-size: cover;
+    box-shadow: 0 10px 20px 0 rgb(0, 0, 0);
+}
