@@ -22,7 +22,6 @@
     font-size: 50px;
     font-weight: 400 italic;
     color: rgb(0, 0, 0);
-    
 }
 .main-container span{
     color: #791e08;
@@ -42,8 +41,8 @@
     text-align: center;
     align-items:center;
 }
-.time-cont h5{
-    font-weight: 500;
+.time-cont h6{
+    font-weight: 500 italic;
 }
 .time-cont p{
     font-weight: 300;
@@ -56,4 +55,24 @@
     background-attachment: fixed;
     background-size: cover;
     box-shadow: 0 10px 20px 0 rgb(0, 0, 0);
+}
+
+/*Responsive design*/
+@media screen and (max-width: 580px){
+    .main-container h1{
+        display: block;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 500px){
+    .main-container h1{
+        padding: 20px 0 40px 0;
+        font-size: 40px;
+    }
+    .time-cont h6{
+        font-weight: 300 italic;
+    }
+    .time-tarjet{
+        width: 90%;
+    }
 }
