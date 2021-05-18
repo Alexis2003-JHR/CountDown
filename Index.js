@@ -14,8 +14,8 @@ function endYear(){
     var seg = Math.round(Tseg) % 60;
     var min = Math.floor(Tseg / 60) % 60;
     var hours = Math.floor(Tseg / 3600) % 24;
-    var days = Math.floor(Tseg / 3600 / 24);
-    var month = Math.floor(days / 30.4167);
+    var days = Math.floor(Tseg / 3600 / 24) %30;
+    var month = Math.floor(Tseg / 3600 / 24 / 30.4167);
 
     Months.innerHTML = month;
     Days.innerHTML = days;
