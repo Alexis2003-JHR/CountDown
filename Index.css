@@ -66,8 +66,11 @@
 }
 @media screen and (max-width: 500px){
     .main-container h1{
-        padding: 20px 0 40px 0;
+        padding: 0px 0 0px 0;
         font-size: 40px;
+    }
+    .time-cont{
+        font-size: 50px;
     }
     .time-cont h6{
         font-weight: 300 italic;
